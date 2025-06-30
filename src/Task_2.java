@@ -2,12 +2,9 @@ public class Task_2
 {
     public static void main(String[] args)
     {
-        int x = 30;
-
-        for (int i = 0; i <= 30; i++)
+        for (int i = 30; i >= 0; i--)
         {
-            System.out.print(x + " ");
-            x--;
+            System.out.print(i + " ");
         }
     }
 }
